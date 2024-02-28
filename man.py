@@ -1,4 +1,5 @@
 def main():
+import streamlit as st
 st.title("Job Portal")
 # Add image
 st.image("path_to_image/image.jpg", use_column_width=True)
