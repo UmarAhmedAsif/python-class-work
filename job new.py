@@ -55,5 +55,6 @@ image = Image.open('example_image.jpg')
 st.image(image, caption='Example Image', use_column_width=True)
 
 
+
 if _name_ == "_main_":
     main()
