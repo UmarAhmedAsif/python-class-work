@@ -26,35 +26,3 @@ if submit_resume_button:
         st.write("Great! Your resume has been uploaded successfully.")
     else:
         st.write("Oops! Please choose a file to upload your resume.")
-import streamlit as st
-
-def main():
-    st.title("Contact Us")
-
-    # Gather user input
-    name = st.text_input("Name")
-    email = st.text_input("Email")
-    message = st.text_area("Message", height=200)
-
-    if st.button("Submit"):
-        # Process the submission (you can add your own logic here)
-        if name and email and message:
-            st.success("Message sent successfully!")
-        else:
-            st.error("Please fill out all fields.")
-         import streamlit as st
-from PIL import Image
-
-# Add a title to your app
-st.title('Bano Qabil')
-
-# Open an image file
-image = Image.open('example_image.jpg')
-
-# Display the image
-st.image(image, caption='Example Image', use_column_width=True)
-
-
-
-if _name_ == "_main_":
-    main()
